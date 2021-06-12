@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>BloodPlus+</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="login.html">Home</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="welcomePage.html">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <h1><b>Registration Form</b></h1>
+        <br>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td>: <input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>: <input type="radio" id="male" name="gender" value="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">Female</label>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>: <input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="ic">MyKad No</label></td>
+                    <td>: <input type="text" name="ic" id="ic"></td>
+                </tr>
+                <tr>
+                    <td><label for="bloodtype">Blood Type</label></td>
+                    <td>: <select id="bloodtype" name="bloodtype">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="AB">AB</option>
+                        <option value="O">O</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No</label></td>
+                    <td>: <input type="text" name="phone" id="phone"></td>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td>: <input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="confirm">Confirm Password</label></td>
+                    <td>: <input type="password" name="confirm" id="confirm"></td>
+                </tr>
+                <tr><td><br><input type="submit" value="Submit" class="w3-button w3-brown w3-round"></td></tr>
+            </table>
+        </form>
+    </div>
+    <footer>
+        ©2021 BLOODPLUS+ ASSOCIATION
+    </footer>
+</body>
+</html>
