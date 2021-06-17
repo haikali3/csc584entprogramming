@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-image: url("bloodbg.jpg"); */
+   
 }
 body{
-    background color: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background2.png");
 }
 nav{
     display: flex;
@@ -169,7 +169,10 @@ footer {
     color: rgb(0, 0, 0);
 }
 
+
 .table h1{
+    text-shadow: 2px 2px #000000;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
